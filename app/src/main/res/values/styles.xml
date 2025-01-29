@@ -1,0 +1,26 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+
+  <!-- styles.xml -->
+  <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <!-- Set the color of the password toggle icon -->
+    <item name="passwordToggleTint">@color/colorPrimary</item>
+    <item name="boxBackgroundColor">@android:color/white</item>
+    <item name="boxStrokeColor">@color/colorPrimary</item>
+    <item name="boxCornerRadiusTopStart">12dp</item>
+    <item name="boxCornerRadiusBottomEnd">12dp</item>
+  </style>
+
+
+
+
+
+
+</resources>
