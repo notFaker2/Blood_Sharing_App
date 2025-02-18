@@ -18,6 +18,7 @@
             android:orientation="vertical"
             android:layout_weight="1">
             <TextView
+                android:id="@+id/exit"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/logout_24px"/>
@@ -41,6 +42,7 @@
             android:layout_weight="1"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/edit_profile"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawableRight="@drawable/edit_square_24px"/>
@@ -76,15 +78,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/person_24px"/>
+                android:drawableStart="@drawable/person_24px"
+                android:text="Md. Junayed"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_call_black_24dp"/>
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:text="0123456"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:paddingTop="10dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_location_on_black_24dp"/>
+                android:drawableStart="@drawable/ic_location_on_black_24dp"
+                android:text="Chittagong"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:paddingTop="10dp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -116,6 +129,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <Button
+            android:id="@+id/request_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Request"
@@ -158,6 +172,7 @@
             android:orientation="horizontal"
             android:gravity="center">
             <TextView
+                android:id="@+id/post"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/post_add_24px"/>
@@ -169,6 +184,7 @@
             android:orientation="horizontal"
             android:gravity="center">
             <TextView
+                android:id="@+id/user_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/person_34px"/>
